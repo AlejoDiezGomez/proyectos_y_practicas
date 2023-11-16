@@ -1,0 +1,14 @@
+En este proyecto estoy creando un sistema para un gimnacio donde va a poder crear carnets para cada cliente donde cada carnet va a contener: 
+*Nombre
+*Telefono
+*Abonado 
+*clases restantes 
+*Observaciones 
+El administrador podra crear y editar cada carnet , verificar el estado de cuota , tomar asistencia y acceder a las estadisticas que se logran gracias a la base de datos que se adquiere con la utilizacion de este programa que son:
+*Ingresos totales
+*Cantidad de carnets nuevos 
+*Cantidad de carnet vencidos
+*Conparacion de ingresos atravez del año 
+*Gastos generales 
+y muchos mas opciones que van a ir surgiendo segun me de cuenta o en base a las necesidades de los usuarios de prueba 
+PROBLEMA N1 : el codigo utiliza un sistema de vencimiento por cantidad de clases y es necesario uno de vencimiento por fecha 

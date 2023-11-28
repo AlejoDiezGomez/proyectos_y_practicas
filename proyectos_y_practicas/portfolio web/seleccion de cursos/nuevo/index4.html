@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .title-cards {
+            display: flex;
+            align-items: center;
+        }
+
+        .title-cards img {
+            border-radius: 50%; /* Hace que la imagen sea redonda */
+            margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+            width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centra los elementos horizontalmente */
+            gap: 10px; /* Espacio entre las tarjetas */
+        }
+
+        .technology-card {
+            text-align: center;
+            margin-bottom: 20px;
+            width: calc(25% - 20px); /* Ajusta el ancho de cada tarjeta teniendo en cuenta el espacio entre ellas */
+        }
+
+        .technology-card img {
+            width: 70px; /* Ajusta el tamaño de la imagen de la tecnología */
+            height: 70px;
+            border-radius: 10px; /* Hace que la imagen sea cuadrada con bordes redondos */
+            margin-bottom: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html and plug/css/botones prueba.css"> 
+    <script src="html and plug/jquery-3.5.1.min.js"></script>
+    <script src="html and plug/main.js"></script>
+    <script src="https://kit.fontawesome.com/1e6da0274e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>HOLA !</h1>
+
+        <div class="redes-container" style="float:right">
+            <ul>
+                <li><a href="a" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="a" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="a" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="title-cards">
+        <h2>Sobre mi</h2>
+    </div>
+
+    <div class="title-cards">
+        <figure>
+            <img src="html and plug\css\img\imgperfil.jpg">
+        </figure>
+        <p>Soy Alejo Diez Gomez, Emprendedor, Data Scientist y estudiante avanzado en Lic en Economia (y amante de la tecnologia y las finanzas)</p>
+    </div>
+
+    <div class="title-cards">
+        <h2>Manejo las siguientes tecnologias </h2>
+    </div>
+
+    <div class="technologies">
+        <div class="technology-card">
+            <img src="html and plug\css\img\Python-logo-notext.svg.png">
+            <p>Python</p>
+        </div>
+
+        <!-- Repite este bloque para cada tecnología -->
+        <div class="technology-card">
+            <img src="html and plug\css\img\pandaslogo.png" >
+            <p>Pandas</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\numpylogo.png">
+            <p>Numpy</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\MySQL.png" >
+            <p>MySQL</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\POWERBI2.jpg">
+            <p>Power BI</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\BIGDATA.png">
+            <p>Big Data</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\MACHINE LEARNING.jpg">
+            <p>Machine Learning</p>
+        </div>
+        <!-- Repite para las demás tecnologías -->
+
+    </div>
+    <div class="title-cards">
+        <h2>Proyectos</h2>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="html and plug\css\img\github.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Repositorio</h3>
+            <a href="https://github.com/AlejoDiezGomez?tab=repositories">Ver Màs</a>
+        </div>
+    </div>
+
+</body>
+</html>
